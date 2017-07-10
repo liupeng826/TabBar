@@ -14,7 +14,6 @@
 		165D5F641F122414009DC5E8 /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F631F122414009DC5E8 /* TabBarTests.swift */; };
 		165D5F6F1F122414009DC5E8 /* TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F6E1F122414009DC5E8 /* TabBarUITests.swift */; };
 		165D5F8A1F12285E009DC5E8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F891F12285E009DC5E8 /* Common.swift */; };
-		165D5F8C1F122915009DC5E8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F8B1F122915009DC5E8 /* UIColorExtension.swift */; };
 		165D5F8F1F1229D8009DC5E8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F8E1F1229D8009DC5E8 /* TabBarController.swift */; };
 		165D5F951F122A54009DC5E8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F941F122A54009DC5E8 /* NavigationController.swift */; };
 		165D5F971F122B8A009DC5E8 /* EntertainmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F961F122B8A009DC5E8 /* EntertainmentVC.swift */; };
@@ -23,6 +22,7 @@
 		165D5F9E1F122DC4009DC5E8 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5F9D1F122DC4009DC5E8 /* GameModel.swift */; };
 		165D5FA11F126BCE009DC5E8 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5FA01F126BCE009DC5E8 /* SearchVC.swift */; };
 		165D5FA31F126C09009DC5E8 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D5FA21F126C09009DC5E8 /* BaseVC.swift */; };
+		16AE382F1F13A59200A3AE90 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE382E1F13A59200A3AE90 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		165D5F6E1F122414009DC5E8 /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
 		165D5F701F122414009DC5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165D5F891F12285E009DC5E8 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = TabBar/Common/Common.swift; sourceTree = "<group>"; };
-		165D5F8B1F122915009DC5E8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		165D5F8E1F1229D8009DC5E8 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = Controller/TabBarController.swift; sourceTree = "<group>"; };
 		165D5F941F122A54009DC5E8 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Controller/NavigationController.swift; sourceTree = "<group>"; };
 		165D5F961F122B8A009DC5E8 /* EntertainmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntertainmentVC.swift; path = Controller/EntertainmentVC.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		165D5F9D1F122DC4009DC5E8 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameModel.swift; path = Model/GameModel.swift; sourceTree = "<group>"; };
 		165D5FA01F126BCE009DC5E8 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVC.swift; path = Controller/SearchVC.swift; sourceTree = "<group>"; };
 		165D5FA21F126C09009DC5E8 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseVC.swift; path = Controller/BaseVC.swift; sourceTree = "<group>"; };
+		16AE382E1F13A59200A3AE90 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = TabBar/Common/UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +148,8 @@
 		165D5F881F12281B009DC5E8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				16AE382E1F13A59200A3AE90 /* UIColor.swift */,
 				165D5F891F12285E009DC5E8 /* Common.swift */,
-				165D5F8B1F122915009DC5E8 /* UIColorExtension.swift */,
 			);
 			name = Common;
 			path = ..;
@@ -328,9 +328,9 @@
 				165D5F9E1F122DC4009DC5E8 /* GameModel.swift in Sources */,
 				165D5F951F122A54009DC5E8 /* NavigationController.swift in Sources */,
 				165D5F9A1F122BA6009DC5E8 /* HomeVC.swift in Sources */,
-				165D5F8C1F122915009DC5E8 /* UIColorExtension.swift in Sources */,
 				165D5FA11F126BCE009DC5E8 /* SearchVC.swift in Sources */,
 				165D5F8A1F12285E009DC5E8 /* Common.swift in Sources */,
+				16AE382F1F13A59200A3AE90 /* UIColor.swift in Sources */,
 				165D5F9B1F122BA6009DC5E8 /* GameVC.swift in Sources */,
 				165D5F4F1F122414009DC5E8 /* AppDelegate.swift in Sources */,
 			);
@@ -585,6 +585,7 @@
 				165D5F751F122414009DC5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		165D5F761F122414009DC5E8 /* Build configuration list for PBXNativeTarget "TabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +594,7 @@
 				165D5F781F122414009DC5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		165D5F791F122414009DC5E8 /* Build configuration list for PBXNativeTarget "TabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +603,7 @@
 				165D5F7B1F122414009DC5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
