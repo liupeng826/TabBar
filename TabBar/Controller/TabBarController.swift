@@ -10,13 +10,6 @@ import UIKit
 
 class TabBarController: UITabBarController {
     
-    override class func initialize() {
-        var attrs = [String: NSObject]()
-        attrs[NSForegroundColorAttributeName] = UIColor(r: 87, g: 206, b: 138)
-        // 设置tabBar字体颜色
-        UITabBarItem.appearance().setTitleTextAttributes(attrs, for:.selected)
-    }
-    
     // MARK: - life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +18,12 @@ class TabBarController: UITabBarController {
         backView.backgroundColor = UIColor.white
         tabBar.insertSubview(backView, at: 0)
         tabBar.isOpaque = true
+        
+        var attrs = [String: NSObject]()
+        attrs[NSForegroundColorAttributeName] = UIColor(r: 87, g: 206, b: 138)
+        // 设置tabBar字体颜色
+        UITabBarItem.appearance().setTitleTextAttributes(attrs, for:.selected)
+
     }
     
     // MARK: - private method
@@ -42,7 +41,6 @@ class TabBarController: UITabBarController {
     
     /// 添加一个子控制器
     fileprivate func setupOneChildViewController(_ title: String, image: String, selectedImage: String, controller: UIViewController) {
-        
         controller.tabBarItem.title = title
         controller.title = title
         controller.view.backgroundColor = BGCOLOR
