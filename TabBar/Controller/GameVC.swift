@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GameVC.swift
 //  TabBar
 //
 //  Created by v0cn123 on 09/07/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GameVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
